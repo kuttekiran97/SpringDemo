@@ -10,4 +10,10 @@ public class scalerClass {
     public String sayHello(){
         return "Hi ! How are you?, I am Kiran" ;
     }
+
+
+    @GetMapping("/hello")
+    public String help(){
+        return "Hope you are doing well!" ;
+    }
 }
